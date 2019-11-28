@@ -148,6 +148,7 @@ img {
   margin: 4em auto;
   max-width: 1200px;
   min-width: 50vw;
+  padding: 0 4vw;
 }
 
 .Footer {
@@ -185,6 +186,10 @@ img {
   padding: 1em;
 }
 
+.Broadsheet a {
+  color: DodgerBlue;
+}
+
 .Broadsheet-heading {
   color: orangered;
   font-size: 1.5em;
@@ -201,7 +206,7 @@ img {
   left: 0;
   margin: 0;
 /*   opacity: 0; */
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: -1;
