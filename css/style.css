@@ -1,0 +1,238 @@
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  color: black;
+  display: grid;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 16px;
+  font-weight: 300;
+  grid-template-columns: 100vw;
+  grid-template-rows: auto 1fr auto;
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 0;
+  width: 100vw;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.Header {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.Header-nav {
+  display: none;
+  flex: 1 1 auto;
+}
+
+.Header-navList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Header-link {
+  display: block;
+  padding: 1em;
+}
+
+.Header-link:link,
+.Header-link:visited,
+.Header-link:hover,
+.Header-link:active {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Header-link:hover,
+.Header-link:focus,
+.Header-link.is-current {
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.Header-summary {
+  cursor: default;
+  height: 0;
+  outline: none;
+  overflow: hidden;
+  padding-top: 4em;
+  position: relative;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 4em;
+}
+
+.Header-summary::before {
+  bottom: 0;
+  content: "\2630";
+  font-size: 2em;
+  left: 0;
+  line-height: 2;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+.Header-details[open] .Header-summary::before {
+  content: "\2715";
+}
+
+.Header-summary::-webkit-details-marker {
+  display: none;
+}
+
+.Header-mobileNav {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  min-height: calc(100vh - 4em);
+  position: absolute;
+  right: 0;
+}
+
+.Header-mobileNavList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.Header-mobileNavListItem {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.Header-mobileNavlink {
+  display: block;
+  flex: 1 1 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+@media (min-width: 641px) {
+
+  .Header-nav {
+    display: block;
+  }
+
+  .Header-details {
+    display: none;
+  }
+
+}
+
+.Main {
+  margin: 4em auto;
+  max-width: 1200px;
+  min-width: 50vw;
+}
+
+.Footer {
+  padding: 1em;
+}
+
+.Footer .Footer-legal {
+  font-size: 14px;
+  margin: 0;
+}
+
+.Heading {
+  margin-top: 0.75em;
+}
+
+.List {
+  margin-left: 2em;
+  margin-top: 0.75em;
+}
+
+.List--ordered {
+  list-style-type: decimal;
+}
+
+.List--unordered {
+  list-style-type: disc;
+}
+
+.Slideshow > .Slide {
+/*   animation: SlideShowAnimation 60s linear infinite 0s; */
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  height: 100%;
+  left: 0;
+  margin: 0;
+/*   opacity: 0; */
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/*
+.Slideshow > .Slide:nth-child(1) {
+  background-image: url("../images/DRUM-3-2.jpeg");
+}
+
+.Slideshow > .Slide:nth-child(2) {
+  animation-delay: 12s;
+  background-image: url("../images/DRUM-13.jpeg");
+}
+
+.Slideshow > .Slide:nth-child(3) {
+  animation-delay: 24s;
+  background-image: url("../images/DRUM-23.jpeg");
+}
+
+.Slideshow > .Slide:nth-child(4) {
+  animation-delay: 36s;
+  background-image: url("../images/DRUM-204.jpeg");
+}
+
+.Slideshow > .Slide:nth-child(5) {
+  animation-delay: 48s;
+  background-image: url("../images/DRUM-227.jpeg");
+}
+
+@keyframes SlideShowAnimation {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  8% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  17% {
+    opacity: 1
+  }
+  25% {
+    opacity: 0
+  }
+  100% {
+    opacity: 0
+  }
+}
+ */
