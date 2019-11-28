@@ -4,7 +4,10 @@ a:hover,
 a:focus,
 a:active {
   color: blue;
+  overflow-wrap: break-word;
   text-decoration: none;
+  word-break: break-word;
+  word-wrap: break-word;
 }
 
 body {
