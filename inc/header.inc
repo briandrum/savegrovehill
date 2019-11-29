@@ -1,10 +1,10 @@
 <header class="Header" role="banner">
-  <a class="Header-link is-current" href="#relative#/">
+  <a class="Header-link is-current" href="#relative#">
     Save Grove Hill
   </a>
   <nav class="Header-nav">
     <ol class="Header-navList">
-      <li><a class="Header-link #HOME_PAGE#" href="#relative#/">Home</a></li>
+      <li><a class="Header-link #HOME_PAGE#" href="#relative#">Home</a></li>
       <!-- <li><a class="Header-link #ABOUT_PAGE#" href="#relative#about/">About</a></li> -->
       <li><a class="Header-link #NEWS_PAGE#" href="#relative#news/">News</a></li>
       <li><a class="Header-link #DOCUMENTS_PAGE#" href="#relative#documents/">Documents</a></li>
@@ -16,7 +16,7 @@
     <summary class="Header-summary">Menu</summary>
     <nav class="Header-mobileNav">
       <ol class="Header-mobileNavList">
-        <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #HOME_PAGE#" href="#relative#/">Home</a></li>
+        <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #HOME_PAGE#" href="#relative#">Home</a></li>
         <!-- <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #ABOUT_PAGE#" href="#relative#about/">About</a></li> -->
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #NEWS_PAGE#" href="#relative#news/">News</a></li>
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #DOCUMENTS_PAGE#" href="#relative#documents/">Documents</a></li>
