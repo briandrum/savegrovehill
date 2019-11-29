@@ -25,6 +25,10 @@ body {
   width: 100vw;
 }
 
+p {
+  margin-top: 0.75em;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -150,7 +154,7 @@ img {
 
 .Main {
   margin: 4em auto;
-  max-width: 1200px;
+  max-width: 1024px;
   min-width: 50vw;
   padding: 0 4vw;
 }
