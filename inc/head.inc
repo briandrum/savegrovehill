@@ -5,7 +5,7 @@
   <meta property="og:url" content="https://savegrovehill.org/">
   <meta property="og:title" content="Save Grove Hill">
   <meta property="og:description" content="">
-  <meta property="og:image" content="#relative#documents/Complete%20home%20inspection%20report%203%20West%20Summit.jpg">
+  <meta property="og:image" content="#relative#documents/Preview%20Package.jpg">
   <title>#PAGE_TITLE# | Save Grove Hill</title>
   <link href="#relative#css/suitcss.css" rel="stylesheet">
   <link href="#relative#css/style.css" rel="stylesheet">
