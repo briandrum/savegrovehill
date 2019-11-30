@@ -9,6 +9,7 @@
       <li><a class="Header-link #NEWS_PAGE#" href="#relative#news/">News</a></li>
       <li><a class="Header-link #DOCUMENTS_PAGE#" href="#relative#documents/">Documents</a></li>
       <li><a class="Header-link #MEETINGS_PAGE#" href="#relative#meetings/">Meetings</a></li>
+      <li><a class="Header-link #ORDINANCES_PAGE#" href="#relative#ordinances/">Ordinances</a></li>
       <li><a class="Header-link #CONTACT_PAGE#" href="#relative#contact/">Contact</a></li>
     </ol>
   </nav>
