@@ -22,6 +22,7 @@
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #NEWS_PAGE#" href="#relative#news/">News</a></li>
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #DOCUMENTS_PAGE#" href="#relative#documents/">Documents</a></li>
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #MEETINGS_PAGE#" href="#relative#meetings/">Meetings</a></li>
+        <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #ORDINANCES_PAGE#" href="#relative#ordinances/">Ordinances</a></li>
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink #CONTACT_PAGE#" href="#relative#contact/">Contact</a></li>
       </ol>
     </nav>
