@@ -194,6 +194,10 @@ img {
   padding: 1em;
 }
 
+.Broadsheet + .Broadsheet {
+  margin-top: 1em;
+}
+
 .Broadsheet a {
   color: DodgerBlue;
 }
