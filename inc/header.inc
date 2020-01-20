@@ -11,7 +11,6 @@
       <li><a class="Header-link#MEETINGS_PAGE#" href="#relative#meetings/">Meetings</a></li>
       <li><a class="Header-link#ORDINANCES_PAGE#" href="#relative#ordinances/">Ordinances</a></li>
       <!-- <li><a class="Header-link#RIVERWALK_PAGE#" href="#relative#river-walk/">River Walk</a></li> -->
-      <li><a class="Header-link#CONTACT_PAGE#" href="#relative#contact/">Contact</a></li>
     </ol>
   </nav>
   <details class="Header-details">
@@ -25,7 +24,6 @@
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#MEETINGS_PAGE#" href="#relative#meetings/">Meetings</a></li>
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#ORDINANCES_PAGE#" href="#relative#ordinances/">Ordinances</a></li>
         <!-- <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#RIVERWALK_PAGE#" href="#relative#river-walk/">River Walk</a></li> -->
-        <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#CONTACT_PAGE#" href="#relative#contact/">Contact</a></li>
       </ol>
     </nav>
   </details>

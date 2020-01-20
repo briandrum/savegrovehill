@@ -37,6 +37,9 @@ img {
 .Header {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
+
+  /* background-color: #ffe01b; */
+
   display: flex;
   font-weight: 600;
   justify-content: space-between;
@@ -159,12 +162,36 @@ img {
   padding: 0 4vw;
 }
 
+.Contact {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 3em 1em;
+  text-align: center;
+}
+
 .Footer {
+  background: black;
+  color: dimgray;
   padding: 1em;
 }
 
+.Footer .Footer-social {
+  font-style: italic;
+  font-weight: 900;
+  margin: 0;
+}
+
+.Footer .Footer-social a:link,
+.Footer .Footer-social a:visited,
+.Footer .Footer-social a:hover,
+.Footer .Footer-social a:focus,
+.Footer .Footer-social a:active {
+  color: gold;
+}
+
 .Footer .Footer-legal {
-  font-size: 14px;
+  font-style: italic;
+  font-weight: 900;
   margin: 0;
 }
 
@@ -185,6 +212,14 @@ img {
   list-style-type: disc;
 }
 
+.Blockquote {
+}
+
+.Blockquote::before {
+  content: "“";
+  position: absolute;
+}
+
 .Broadsheet {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 0.25em;
@@ -199,11 +234,11 @@ img {
 }
 
 .Broadsheet a {
-  color: DodgerBlue;
+  color: gold;
 }
 
 .Broadsheet-heading {
-  color: orangered;
+  color: gold;
   font-size: 1.5em;
   font-weight: 800;
 }
