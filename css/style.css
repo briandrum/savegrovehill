@@ -3,22 +3,31 @@ a:visited,
 a:hover,
 a:focus,
 a:active {
-  color: blue;
+  background-color: gold;
+  color: black;
+  padding: 0.125em 0.25em;
   overflow-wrap: break-word;
   text-decoration: none;
   word-break: break-word;
   word-wrap: break-word;
 }
 
+a:hover,
+a:focus {
+  background-color: gold;
+  color: black;
+}
+
 body {
   background-color: white;
   color: black;
   display: grid;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-  font-size: 16px;
-  font-weight: 300;
+  font-family: 'Courier Prime', monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   grid-template-columns: 100vw;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto 1fr auto;
   line-height: 1.5;
   min-height: 100vh;
   padding: 0;
@@ -29,21 +38,34 @@ p {
   margin-top: 0.75em;
 }
 
+strong {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
 img {
   display: block;
   max-width: 100%;
 }
 
+mark {
+  background-color: gold;
+}
+
 .Header {
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-
-  /* background-color: #ffe01b; */
-
+  background-color: black;
+  color: white;
   display: flex;
   font-weight: 600;
   justify-content: space-between;
   white-space: nowrap;
+}
+
+.Header-name {
+  letter-spacing: 0.03125em;
+  padding: 0.875em 0.75em;
+  text-transform: uppercase;
 }
 
 .Header-nav {
@@ -57,22 +79,32 @@ img {
   justify-content: flex-end;
 }
 
+.Header-navListItem {
+ padding: 0.875em 0.75em;
+}
+
 .Header-link {
   display: block;
-  padding: 1em;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .Header-link:link,
 .Header-link:visited,
 .Header-link:hover,
+.Header-link:focus,
 .Header-link:active {
-  color: rgba(255, 255, 255, 0.6);
+  background-color: unset;
+  color: white;
 }
 
-.Header-link:hover,
-.Header-link:focus,
-.Header-link.is-current {
-  color: rgba(255, 255, 255, 1.0);
+.Header-link.is-current:link,
+.Header-link.is-current:visited,
+.Header-link.is-current:hover,
+.Header-link.is-current:focus,
+.Header-link.is-current:active {
+  color: gold;
 }
 
 .Header-summary {
@@ -86,6 +118,7 @@ img {
       -ms-user-select: none;
           user-select: none;
   width: 4em;
+  z-index: 1;
 }
 
 .Header-summary::before {
@@ -93,6 +126,7 @@ img {
   color: white;
   content: "\2630";
   font-size: 2em;
+  font-style: normal;
   left: 0;
   line-height: 2;
   position: absolute;
@@ -110,7 +144,8 @@ img {
 }
 
 .Header-mobileNav {
-  background-color: white;
+  background-color: black;
+  bottom: 0;
   box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
@@ -119,6 +154,7 @@ img {
   min-height: calc(100vh - 4em);
   position: absolute;
   right: 0;
+  top: 0;
 }
 
 .Header-mobileNavList {
@@ -134,13 +170,26 @@ img {
   display: flex;
   flex: 1 1 auto;
   justify-content: center;
+  padding: 1em;
 }
 
 .Header-mobileNavlink {
   display: block;
   flex: 1 1 auto;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   padding: 1em;
   text-align: center;
+}
+
+.Header-mobileNavlink:link,
+.Header-mobileNavlink:visited,
+.Header-mobileNavlink:hover,
+.Header-mobileNavlink:focus,
+.Header-mobileNavlink:active {
+  background-color: unset;
+  color: white;
 }
 
 @media (min-width: 641px) {
@@ -155,6 +204,12 @@ img {
 
 }
 
+.Banner {
+  background-color: gold;
+  padding: 2em;
+  text-align: center;
+}
+
 .Main {
   margin: 4em auto;
   max-width: 1024px;
@@ -163,40 +218,86 @@ img {
 }
 
 .Contact {
-  background-color: rgba(0, 0, 0, 0.9);
+  background: gold;
   color: white;
-  padding: 3em 1em;
+  padding: 2em;
   text-align: center;
+}
+
+.Contact-listItem {
+  background: black;
+  padding: 1em;
+}
+
+.Contact-listItem + .Contact-listItem {
+  margin-top: 2em;
+}
+
+@media (min-width: 641px) {
+  .Contact-listItem + .Contact-listItem {
+    margin-top: 0;
+    margin-left: 2em;
+  }
+}
+
+.Contact-link:link,
+.Contact-link:visited {
+  background-color: unset;
+  color: white;
+}
+
+.Contact-link:hover,
+.Contact-link:focus,
+.Contact-link:active {
+  color: gold;
+}
+
+.Contact-linkTitle {
+  color: gold;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.Contact-link:hover .Contact-linkTitle,
+.Contact-link:focus .Contact-linkTitle,
+.Contact-link:active .Contact-linkTitle {
+  color: white;
 }
 
 .Footer {
   background: black;
   color: dimgray;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
   padding: 1em;
 }
 
-.Footer .Footer-social {
-  font-style: italic;
-  font-weight: 900;
-  margin: 0;
-}
-
-.Footer .Footer-social a:link,
-.Footer .Footer-social a:visited,
-.Footer .Footer-social a:hover,
-.Footer .Footer-social a:focus,
-.Footer .Footer-social a:active {
+.Footer-link:link,
+.Footer-link:visited,
+.Footer-link:hover,
+.Footer-link:focus,
+.Footer-link:active {
+  background-color: unset;
   color: gold;
 }
 
-.Footer .Footer-legal {
-  font-style: italic;
-  font-weight: 900;
-  margin: 0;
+.Heading {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  margin-top: 0.75em;
 }
 
-.Heading {
-  margin-top: 0.75em;
+.Heading--size700 {
+  font-size: 28px;
+}
+
+.Heading--size600 {
+  font-size: 21px;
+}
+
+.Heading--size500 {
+  font-size: 14px;
 }
 
 .List {
@@ -215,30 +316,15 @@ img {
 .Blockquote {
 }
 
-.Blockquote::before {
-  content: "“";
-  position: absolute;
-}
-
 .Broadsheet {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.25em;
-  color: white;
   font-size: 1.5em;
-  font-weight: 800;
   padding: 1em;
 }
 
-.Broadsheet + .Broadsheet {
-  margin-top: 1em;
-}
-
-.Broadsheet a {
-  color: gold;
-}
-
 .Broadsheet-heading {
-  color: gold;
+  font-family: "Rubik", sans-serif;
   font-size: 1.5em;
   font-weight: 800;
 }
@@ -304,3 +390,5 @@ img {
   }
 }
  */
+
+
