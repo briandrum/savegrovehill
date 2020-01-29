@@ -319,8 +319,11 @@ mark {
 .Broadsheet {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.25em;
-  font-size: 1.5em;
   padding: 1em;
+}
+
+.Broadsheet + .Broadsheet {
+  margin-top: 2em;
 }
 
 .Broadsheet-heading {

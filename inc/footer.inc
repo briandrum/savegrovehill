@@ -3,7 +3,7 @@
     <ol class="u-size1of3">
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#">Home</a></li>
       <!-- <li class="Footer-navListItem"><a class="Footer-link" href="#relative#about/">About</a></li> -->
-      <li class="Footer-navListItem"><a class="Footer-link" href="#relative#news/">News</a></li>
+      <li class="Footer-navListItem"><a class="Footer-link" href="#relative#press/">Press</a></li>
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#documents/">Documents</a></li>
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#meetings/">Meetings</a></li>
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#ordinances/">Ordinances</a></li>
