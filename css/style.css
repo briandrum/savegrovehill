@@ -210,6 +210,10 @@ mark {
   text-align: center;
 }
 
+.Banner a {
+  text-decoration: underline;
+}
+
 .Main {
   margin: 4em auto;
   max-width: 1024px;
