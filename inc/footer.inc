@@ -2,7 +2,10 @@
   <nav class="u-flex">
     <ol class="u-size1of3">
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#">Home</a></li>
-      <!-- <li class="Footer-navListItem"><a class="Footer-link" href="#relative#about/">About</a></li> -->
+      <li class="Footer-navListItem"><a class="Footer-link" href="#relative#yes">Answers</a></li>
+      <li class="Footer-navListItem"><a class="Footer-link" href="#relative#donate">Donate</a></li>
+    </ol>
+    <ol class="u-size1of3">
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#documents/">Documents</a></li>
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#meetings/">Meetings</a></li>
       <li class="Footer-navListItem"><a class="Footer-link" href="#relative#ordinances/">Ordinances</a></li>

@@ -3,13 +3,17 @@ a:visited,
 a:hover,
 a:focus,
 a:active {
+/*
   background-color: gold;
   color: black;
   padding: 0.125em 0.25em;
   overflow-wrap: break-word;
+ */
   text-decoration: none;
+/*
   word-break: break-word;
   word-wrap: break-word;
+ */
 }
 
 a:hover,
@@ -22,8 +26,9 @@ body {
   background-color: white;
   color: black;
   display: grid;
-  font-family: 'Courier Prime', monospace;
-  font-size: 14px;
+  font-family: 'Special Elite', monospace;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   grid-template-columns: 100vw;
@@ -32,6 +37,25 @@ body {
   min-height: 100vh;
   padding: 0;
   width: 100vw;
+}
+
+figure {
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-size: 12px;
+  line-height: 1.2em;
+  margin-top: 0.75em;
+  text-align: center;
 }
 
 p {
@@ -50,6 +74,14 @@ img {
 
 mark {
   background-color: gold;
+}
+
+.Text {
+}
+
+.Text--size500 {
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .Header {
@@ -88,6 +120,14 @@ mark {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.Header-link strong {
+  background-color: gold;
+  border-radius: 0.1em;
+  color: black;
+  margin-right: 0.25em;
+  padding: 0.25em 0.5em;
 }
 
 .Header-link:link,
@@ -272,8 +312,6 @@ mark {
 .Footer {
   background: black;
   color: dimgray;
-  font-family: "Rubik", sans-serif;
-  font-weight: 700;
   padding: 1em;
 }
 
@@ -283,7 +321,7 @@ mark {
 .Footer-link:focus,
 .Footer-link:active {
   background-color: unset;
-  color: gold;
+  color: white;
 }
 
 .Heading {
@@ -293,7 +331,8 @@ mark {
 }
 
 .Heading--size700 {
-  font-size: 28px;
+  font-size: 48px;
+  line-height: 1em;
 }
 
 .Heading--size600 {
@@ -318,6 +357,10 @@ mark {
 }
 
 .Blockquote {
+}
+
+.Yes {
+  color: darkgray;
 }
 
 .Broadsheet {
