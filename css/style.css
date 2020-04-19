@@ -76,6 +76,25 @@ mark {
   background-color: gold;
 }
 
+.CTA:link,
+.CTA:visited,
+.CTA:hover,
+.CTA:focus,
+.CTA:active {
+  border-color: black;
+  border-style: solid;
+  border-radius: 0.25em;
+  border-width: 0.125em;
+  display: inline-block;
+  background: gold;
+  color: black;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 1em 2em;
+  text-transform: uppercase;
+}
+
 .Text {
 }
 
@@ -360,7 +379,7 @@ mark {
 }
 
 .Yes {
-  color: darkgray;
+  color: gold;
 }
 
 .Broadsheet {
