@@ -8,7 +8,7 @@
     <ol class="Header-navList">
       <li class="Header-navListItem"><a class="Header-link#HOME_PAGE#" href="#relative#">Home</a></li>
       <li class="Header-navListItem"><a class="Header-link#YES_PAGE#" href="#relative#yes/">Answers</a></li>
-      <li class="Header-navListItem"><a class="Header-link#DONATE_PAGE#" href="#relative#donate/">Donate</a></li>
+      <li class="Header-navListItem"><a class="Header-link#DONATE_PAGE#" href="https://www.wrlandconservancy.org/support-our-work/donate-to-save-grove-hill/">Donate</a></li>
     </ol>
   </nav>
   <details class="Header-details">
@@ -17,7 +17,7 @@
       <ol class="Header-mobileNavList">
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#HOME_PAGE#" href="#relative#">Home</a></li>
         <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#YES_PAGE#" href="#relative#yes/">Answers</a></li>
-        <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#DONATE_PAGE#" href="#relative#donate/">Donate</a></li>
+        <li class="Header-mobileNavListItem"><a class="Header-mobileNavlink#DONATE_PAGE#" href="https://www.wrlandconservancy.org/support-our-work/donate-to-save-grove-hill/">Donate</a></li>
       </ol>
     </nav>
   </details>
